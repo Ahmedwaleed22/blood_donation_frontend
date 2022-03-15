@@ -1,0 +1,51 @@
+#contact_showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.445)),
+    url("../img/contact_background.jpeg") no-repeat;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+}
+#contact_showcase h1 {
+  text-align: center;
+}
+.contact-form form {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 0;
+}
+.contact-form form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 1em;
+}
+.contact-form form .form-group label {
+  margin-bottom: 10px;
+}
+.contact-form form .form-group input,
+textarea {
+  padding: 1em;
+  direction: rtl;
+  font-size: 1em;
+}
+.contact-form form button {
+  width: 250px;
+  height: 50px;
+  font-size: 1.2em;
+  color: #fff;
+  background: var(--primary-color);
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}

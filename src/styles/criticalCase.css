@@ -1,0 +1,12 @@
+#critical-case-showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.445)),
+    url("../img/critical_case_background.jpeg") no-repeat;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+}

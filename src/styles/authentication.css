@@ -1,0 +1,74 @@
+#login-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/login_background.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#login-page .login-form-container {
+  background: rgba(0, 0, 0, 0.534);
+  height: 400px;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: #fff;
+  padding: 2rem;
+}
+#login-page .login-form-container .main-actions {
+  text-align: center;
+  font-size: 1.5rem;
+}
+#login-page .login-form-container .main-actions .seperator {
+  margin: 0 10px;
+}
+#login-page .login-form-container .main-actions .link {
+  cursor: pointer;
+}
+#login-page .login-form-container .main-actions span {
+  user-select: none;
+}
+#login-page .login-form-container .main-actions .link.active {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+#login-page .login-form-container .form-container {
+  display: flex;
+  flex-direction: column;
+}
+#login-page .login-form-container .form-container form .form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin: 1em 0;
+}
+#login-page .login-form-container .form-container form .form-group label {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+#login-page .login-form-container .form-container form .form-group input {
+  direction: rtl;
+  padding: 1em;
+  font-size: 1em;
+}
+#login-page .login-form-container .form-container form .submit-form-button {
+  background: var(--primary-color);
+  outline: none;
+  border: 0;
+  color: #fff;
+  width: 100%;
+  padding: 1em;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+#login-page
+  .login-form-container
+  .form-container
+  form
+  .submit-form-button:hover {
+  background: var(--secondary-color);
+}

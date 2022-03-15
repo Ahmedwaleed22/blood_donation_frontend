@@ -1,0 +1,7 @@
+.volunteers-container {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fill, 400px);
+  justify-content: center;
+  padding: 3rem;
+}

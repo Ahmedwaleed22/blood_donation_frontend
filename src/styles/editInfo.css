@@ -1,0 +1,33 @@
+#edit_info_showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.445)),
+    url("../img/editinfo_background.jpeg") no-repeat;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+}
+#edit_info_showcase h1 {
+  text-align: center;
+}
+.editinfo-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 510px;
+  width: 100%;
+}
+.editinfo-actions button {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 555px) {
+  .editinfo-actions {
+    justify-content: center;
+  }
+  .editinfo-actions button {
+    width: 100%;
+  }
+}

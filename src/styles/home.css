@@ -1,0 +1,108 @@
+#showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.445)),
+    url("../img/showcase_background.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 85px);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#showcase .text {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#showcase .text .title {
+  font-size: 3rem;
+  margin: 0;
+}
+#showcase .text .description {
+  text-align: center;
+  font-size: 1.5rem;
+}
+#showcase .actions a {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#about .section-title {
+  text-align: center;
+  font-size: 3rem;
+}
+#about .container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+#about .container .text {
+  width: 600px;
+  font-size: 1.5rem;
+  word-spacing: 2px;
+}
+#about .container .text p {
+  margin-bottom: 10px;
+  text-align: right;
+}
+#about .container .text p a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+#about .container .image {
+  height: 400px;
+  width: 500px;
+}
+#about .container .image img {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 1100px) {
+  #about .container {
+    padding: 20px;
+  }
+}
+#howitworks {
+  margin-bottom: 40px;
+}
+#howitworks .section-title {
+  text-align: center;
+  font-size: 3rem;
+}
+#howitworks .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#howitworks .container .card {
+  text-align: right;
+  background: hsl(0, 7%, 97%);
+  padding: 20px 30px 30px;
+  border-radius: 15px;
+}
+#howitworks .container .card p {
+  margin-bottom: 40px;
+}
+#howitworks .container .card a {
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+@media screen and (max-width: 1215px) {
+  #howitworks .container .card {
+    width: 80%;
+  }
+  #howitworks .container .card:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}

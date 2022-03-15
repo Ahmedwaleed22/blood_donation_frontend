@@ -1,0 +1,12 @@
+#volunteers-showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.445)),
+    url("../img/volunteers_background.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}

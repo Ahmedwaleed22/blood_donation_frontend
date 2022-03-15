@@ -1,0 +1,64 @@
+#volunteer-register-showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.445)),
+    url("../img/volunteer_registeration.jpeg") no-repeat;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+}
+#volunteer-register-showcase h1 {
+  margin: 0;
+}
+#registration-form {
+  padding: 3em 5em;
+}
+#registration-form form .form-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 600px));
+  gap: 1em;
+  justify-content: center;
+}
+#registration-form form .form-container .form-group {
+  display: flex;
+  flex-direction: column;
+}
+#registration-form form .form-container .form-group label {
+  margin-bottom: 10px;
+  text-align: right;
+}
+#registration-form form .form-container .form-group input,
+#registration-form form .form-container .form-group select,
+#registration-form form .form-container .form-group textarea {
+  padding: 1em;
+  direction: rtl;
+  font-size: 1em;
+  border: 1px solid #707070;
+  outline: none;
+}
+#registration-form form .form-container .form-group.required label:before {
+  content: "*";
+  margin-right: 5px;
+  color: #ff0000;
+}
+#registration-form form button {
+  width: 200px;
+  padding: 1em;
+}
+#registration-form form .actions {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0 0;
+}
+#registration-form form .actions button {
+  background: var(--primary-color);
+  color: #fff;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  padding: 1em 40px;
+  cursor: pointer;
+}

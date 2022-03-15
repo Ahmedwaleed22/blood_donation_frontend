@@ -1,0 +1,36 @@
+#admin-page .page-container {
+  display: flex;
+  direction: rtl;
+}
+#admin-sidebar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: calc(100vh - (85px + 65px));
+  height: 100%;
+  list-style-type: none;
+  background: #f2f2f2;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  color: #fff;
+  margin-left: 1em;
+}
+#admin-sidebar ul li {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+#admin-sidebar ul li a {
+  color: #000;
+  text-decoration: none;
+}
+#admin-sidebar ul li a:hover,
+#admin-sidebar ul li a.active {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.admin-page-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+}

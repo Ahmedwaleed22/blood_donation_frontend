@@ -1,0 +1,65 @@
+#manage-users-page {
+  width: 100%;
+}
+#manage-users-page .manage-users-container {
+  max-height: 400px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  max-width: 945px;
+}
+#manage-users-page .manage-users-container table {
+  border-collapse: collapse;
+}
+#manage-users-page .manage-users-container table thead th {
+  padding: 1em 5em;
+  background: var(--secondary-color);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+#manage-users-page .manage-users-container table tbody td {
+  padding: 1em;
+  text-align: center;
+}
+#manage-users-page .manage-users-container table tbody td.actions {
+  display: flex;
+}
+#manage-users-page
+  .manage-users-container
+  table
+  tbody
+  td.actions
+  button:first-child {
+  margin-left: 5px;
+}
+#manage-users-page .manage-users-container table th,
+td {
+  border: 1px solid #d4d4d4;
+}
+#manage-users-page .manage-users-container table tbody td button.delete {
+  background: var(--primary-color);
+  color: #fff;
+  outline: none;
+  border: 0;
+  padding: 0.7em 3em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+#manage-users-page .manage-users-container table tbody td button.edit {
+  background: green;
+  color: #fff;
+  outline: none;
+  border: 0;
+  padding: 0.7em 3em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+#manage-users-page .manage-users-container table tbody td button.delete:hover {
+  background: var(--secondary-color);
+}
+#manage-users-page .manage-users-container table tbody td button.edit:hover {
+  background: rgb(0, 119, 0);
+}
